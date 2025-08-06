@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url(./variables.css);
+@import url(./button.css);
+@import url(./auth.css);
+@import url(./popup.css);
+@import url(./datatable.css);
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* global start */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  line-height: normal;
+}
+html {
+  overflow: hidden;
+}
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.form-label {
+  color: var(--grey-500);
+  font-weight: 500;
+  display: block;
+  margin-bottom: 8px;
+}
+.form-input {
+  background-color: var(--grey-50);
+  height: 40px;
+  border-radius: 8px;
+  width: 100%;
+  transition: 0.2s ease;
+  padding: 0 12px;
+}
+.form-input:hover {
+  background-color: var(--grey-100);
+}
+/* *:focus {
+  outline: 1px solid var(--grey-400) !important;
+} */
+.form-validation {
+  color: var(--danger-400);
+  display: block;
+  margin-top: 4px;
+}
+.main-layout {
+  height: calc(100vh - 64px);
+}
+/* global end */
+
+/* sidebar start */
+.sidebar-links li a{
+  color: var(--grey-400);
+}
+.sidebar-links li a:hover{
+  color: var(--grey-500);
+}
+.sidebar-links li a.active{
+  color: var(--purple-400);
+  font-weight: 500;
+}
+/* sidebar end */

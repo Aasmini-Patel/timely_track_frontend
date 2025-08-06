@@ -1,0 +1,17 @@
+.datatable-wrapper {
+    * {
+        font-size: 16px !important;
+    }
+    header.cXlmUT {
+        padding: 0;
+    }
+    .rdt_TableHeadRow {
+        background-color: var(--grey-50) !important;
+    }
+    .rdt_Pagination {
+        justify-content: center !important;
+    }
+    .rdt_Pagination * {
+        font-size: 14px !important;
+    }
+}

@@ -1,0 +1,13 @@
+.react-responsive-modal-modal {
+    padding: 0;
+    width: 100%;
+}   
+.react-responsive-modal-modal.modal-sm {
+    max-width: 450px;
+}   
+.react-responsive-modal-modal.modal-md {
+    max-width: 600px;
+}
+.react-responsive-modal-modal .modal-header h3 {
+    max-width: 600px;
+}
